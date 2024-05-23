@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        .portfolio-heading {
+            position: relative;
+            text-align: center;
+            color: black;
+            margin-top: 12em;
+        }
+
+        .projects {
+            display: flex;
+            align-items: center;
+            margin-top: 3em;
+            /* border: 10px solid green; */
+            width: 90%;
+            height: 300px;
+            gap: 20px;
+            align-items: center;
+            justify-content: center;
+            margin: 3em auto;
+        }
+
+        .project-row {
+            position: relative;
+            width: 30%;
+            height: 19em;
+            /* border: 10px solid rgb(226, 25, 25); */
+            margin: auto;
+            text-align: center;
+            display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+        }
+
+        .project-row img {
+            height: 100%;
+            width: 100%;
+        }
+
+        .project-row button {
+            position: absolute;
+            bottom: 20px;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            padding: 10px 20px;
+            font-size: 14px;
+            bottom: 20px;
+            background-color: #6a84f8;
+            border: none;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .project-row button:hover {
+            background-color: #45a049;
+        }
+
+        .project-row h1 {
+            text-align: center;
+            color: white;
+            padding: 11px;
+            left: auto;
+            position: absolute;
+            top: 75%;
+            transform: translateY(-92%);
+            text-align: center;
+        }
+    </style>
+
+
+    <section class="portfolio">
+        <div class="portfolio-heading">
+            <h1>We do some awesome work for our clients</h1>
+        </div>
+
+        <div class="projects">
+            <div class="project-row">
+                <img src="/assets/images/banner-item-01.jpg" alt="">
+                <h1>Cooper Lee</h1>
+                <button>Vist Websites</button>
+            </div>
+
+            <div class="project-row">
+                <img src="/assets/images/banner-item-02.jpg" alt="">
+                <h1>Nike Store</h1>
+                <button>Vist Websites</button>
+            </div>
+            <div class="project-row">
+
+                <img src="/assets/images/banner-item-03.jpg" alt="">
+                <h1>I am Iron Man</h1>
+
+                <button>Vist Websites</button>
+            </div>
+
+        </div>
+        <div class="projects">
+            <div class="project-row">
+                <img src="/assets/images/banner-item-01.jpg" alt="">
+                <h1>Edunet Foundation</h1>
+                <button>Vist Websites</button>
+            </div>
+
+            <div class="project-row">
+                <img src="/assets/images/banner-item-02.jpg" alt="">
+                <h1>Abracadabara</h1>
+                <button>Vist Websites</button>
+            </div>
+            <div class="project-row">
+
+                <img src="/assets/images/banner-item-03.jpg" alt="">
+                <h1>I am Batman</h1>
+                <button>Vist Websites</button>
+            </div>
+
+        </div>
+
+    </section>
+
+</body>
+
+</html>

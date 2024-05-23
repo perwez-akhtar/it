@@ -1,0 +1,93 @@
+
+  <!-- ***** Header Area Start ***** -->
+  <header class="header-area header-sticky">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <nav class="main-nav">
+            <!-- ***** Logo Start ***** -->
+            <a href="index.html" class="logo">
+              <h1>Outad Solutions</h1>
+            </a>
+            <!-- ***** Logo End ***** -->
+            <!-- ***** Serach Start ***** -->
+            <div class="search-input">
+              <form id="search" action="#">
+                <input type="text" placeholder="Type Something" id='searchText' name="searchKeyword"
+                  onkeypress="handle" />
+                <i class="fa fa-search"></i>
+              </form>
+            </div>
+            <!-- ***** Serach Start ***** -->
+          <!-- ***** Menu Start ***** -->
+<ul class="nav">
+  <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
+  <li class=" scroll-to-section dropdown">
+      <a href="#" class="dropdown-toggle">Services</a>
+      <ul class="dropdown-menu" >
+          <li><a href="#">Service 1</a></li>
+          <li><a href="#">Service 2</a></li>
+          <li><a href="#">Service 3</a></li>
+      </ul>
+  </li>
+  <li class="scroll-to-section"><a href="#pricing">Pricing</a></li>
+  <li class="scroll-to-section"><a href="./development/portfolio.html">Portfolio</a></li>
+  <li class="scroll-to-section"><a href="#events">About us</a></li>
+  <li class="scroll-to-section"><a href="">Blog</a></li>
+  <li class="scroll-to-section"><a href="./development/contact.html">Contact us</a></li>
+</ul>
+<!-- ***** Menu End ***** -->
+
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- ***** Header Area End ***** -->
+
+
+  <style>
+    
+/* Dropdown Menu Styles */
+.dropdown {
+  position: relative;
+}
+
+.dropdown-toggle::after {
+  /* content: '\25BE'; Unicode for down arrow */
+  margin-left: 5px;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  background-color: #0f0303;
+  padding: 10px;
+  border: 1px solid #ccc; /* Adjust border color */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add box shadow */
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu li {
+  list-style: none;
+  margin: 5px 0;
+}
+
+.dropdown-menu li a {
+  display: block;
+  color: #ee1414; /* Adjust text color */
+  text-decoration: none;
+  padding: 5px 0; /* Adjust padding */
+}
+
+.dropdown-menu li a:hover {
+  color: #e41111; /* Adjust text color on hover */
+  background-color: #464242; /* Add background color on hover */
+}
+  </style>
