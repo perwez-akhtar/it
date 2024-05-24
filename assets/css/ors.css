@@ -2246,7 +2246,7 @@ ul > li {
   padding: 15px;
   box-sizing: border-box;
   align-items: center;
-  text-align: justify;
+  text-align: left;
   background-color: #4a4e69;
 }
 
